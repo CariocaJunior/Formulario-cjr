@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  border: none;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+  outline: none;
+}
+input {
+  padding: 10px;
+  border-bottom: 2px solid black;
+  margin-bottom: 40px;
+}
+
+a {
+  color: rgb(190, 4, 190);
+}
+
+body {
+  background-image: url(./imagens/abstract-blur-and-defocused-bookshelf-in-library.jpg);
+  width: 100vw;
+  height: 100vh;
+  padding-top: 5vh;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#contanier {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.registro {
+  flex: 1 1 120%;
+  position: relative;
+}
+
+.registro-metade {
+  flex: 1 1 45%;
+  position: relative;
+}
+.s {
+  margin-right: 2.5%;
+}
+
+@media (max-width: 584px) {
+  #contanier {
+    max-width: 100%;
+  }
+  form {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+}
